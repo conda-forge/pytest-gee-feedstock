@@ -24,6 +24,7 @@ requirements:
     - deprecated >=1.2.14
     - earthengine-api
     - pytest
+    - pytest-regressions
 
 test:
   imports:
