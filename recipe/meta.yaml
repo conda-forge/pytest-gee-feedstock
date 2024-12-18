@@ -1,5 +1,5 @@
 {% set name = "pytest-gee" %}
-{% set version = "0.4.0" %}
+{% set version = "0.5.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pytest_gee-{{ version }}.tar.gz
-  sha256: ee7815dacdc44dcecf3bc2fdf4d2a80b4581a5852bd12966a02068429d44e741
+  sha256: dfe23372414bf747a45f0b66108d0f7b2e9d9315cd6aab534b0cd0a829f17b13
 
 build:
   noarch: python
@@ -25,6 +25,8 @@ requirements:
     - earthengine-api
     - pytest
     - pytest-regressions
+    - geopandas
+    - pillow
 
 test:
   imports:
