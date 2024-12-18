@@ -25,6 +25,8 @@ requirements:
     - earthengine-api
     - pytest
     - pytest-regressions
+    - geopandas
+    - pillow
 
 test:
   imports:
