@@ -24,7 +24,7 @@ requirements:
     - deprecated >=1.2.14
     - earthengine-api
     - pytest
-    - pytest-regressions
+    - pytest-regressions >=2.7.0
     - geopandas
     - pillow
 
