@@ -1,5 +1,5 @@
 {% set name = "pytest-gee" %}
-{% set version = "0.7.2" %}
+{% set version = "0.8.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pytest_gee-{{ version }}.tar.gz
-  sha256: 9c8c2790743f29f10ce492ae1da2e9652bd9fcd7919317ab7ce91d6b05e8e4f2
+  sha256: 177b7a30c178304729dcb134e4019b172abd3d834f2039476a4dbaeb4a7b1e92
 
 build:
   noarch: python
